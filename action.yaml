@@ -6,10 +6,12 @@ inputs:
     description: 'Run govulncheck on these packages.'
     required: false
     default: './...'
+  go-version-file:
+    description: 'Path to the go.mod file.'
+    required: false
   go-version:
     description: 'The go version to use when running govulncheck'
     required: false
-    default: '1.19'
   govuln-version:
     description: 'The govulncheck version to use whe'
     required: false
@@ -24,6 +26,7 @@ runs:
       uses: actions/setup-go@v3
       with:
         go-version: ${{ inputs.go-version }}
+        go-version-file: ${{ inputs.go-version-file }}
     - name: Get govulncheck
       run: go install golang.org/x/vuln/cmd/govulncheck@${{ inputs.govuln-version }}
       shell: bash
