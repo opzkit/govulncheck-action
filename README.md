@@ -11,6 +11,7 @@ See [action.yml](action.yml)
 
 ## Basic
 
+<!-- x-release-please-start-version -->
 ```yaml
 name: Go vulnerabilities check
 on: [ push ]
@@ -27,6 +28,7 @@ jobs:
           govuln-version: 'latest'
           packages: './...'
 ```
+<!-- x-release-please-end-->
 
 ### Inputs
 
