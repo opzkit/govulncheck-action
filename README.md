@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: check for go vulnerabilities
-        uses: opzkit/govulncheck-action@v1.1.0
+        uses: opzkit/govulncheck-action@v1.1.1
         # optional
         with:
           go-version: '1.19'
