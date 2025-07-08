@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.1](https://github.com/opzkit/govulncheck-action/compare/v1.1.0...v1.1.1) (2025-07-08)
+
+
+### Miscellaneous Chores
+
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.1 ([#20](https://github.com/opzkit/govulncheck-action/issues/20)) ([8b3f373](https://github.com/opzkit/govulncheck-action/commit/8b3f37369cf4efe648335023934175a2b70eac60))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.3 ([#23](https://github.com/opzkit/govulncheck-action/issues/23)) ([457a266](https://github.com/opzkit/govulncheck-action/commit/457a266eb469bea94382c6e70258b298872406a5))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.4 ([#24](https://github.com/opzkit/govulncheck-action/issues/24)) ([095cf28](https://github.com/opzkit/govulncheck-action/commit/095cf28208da063708519837b543dd2d1ed855c4))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.5 ([#25](https://github.com/opzkit/govulncheck-action/issues/25)) ([f25f6da](https://github.com/opzkit/govulncheck-action/commit/f25f6da003aef364412289c8a6a6ee7091493d45))
+
 ## [1.1.0](https://github.com/opzkit/govulncheck-action/compare/v1.0.1...v1.1.0) (2025-05-17)
 
 
