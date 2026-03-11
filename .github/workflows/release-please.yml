@@ -21,7 +21,17 @@ jobs:
           private-key: ${{ secrets.RELEASE_PLEASE_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
       - uses: googleapis/release-please-action@16a9c90856f42705d54a6fda1823352bdc62cf38 # v4
+        id: release
         with:
           token: ${{ steps.get_token.outputs.token }}
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
+      - name: Move major version tag
+        if: ${{ steps.release.outputs.release_created }}
+        env:
+          GITHUB_TOKEN: ${{ steps.get_token.outputs.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag -fa v${{ steps.release.outputs.major }} -m "Release v${{ steps.release.outputs.major }}"
+          git push origin v${{ steps.release.outputs.major }} --force
