@@ -26,10 +26,13 @@ jobs:
           token: ${{ steps.get_token.outputs.token }}
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
+      - name: Checkout code
+        if: ${{ steps.release.outputs.release_created }}
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+        with:
+          token: ${{ steps.get_token.outputs.token }}
       - name: Move major version tag
         if: ${{ steps.release.outputs.release_created }}
-        env:
-          GITHUB_TOKEN: ${{ steps.get_token.outputs.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
