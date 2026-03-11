@@ -1,5 +1,31 @@
 # Changelog
 
+## [1.2.0](https://github.com/opzkit/govulncheck-action/compare/v1.1.2...v1.2.0) (2026-03-11)
+
+
+### Features
+
+* move major version tag on release ([#113](https://github.com/opzkit/govulncheck-action/issues/113)) ([facbb18](https://github.com/opzkit/govulncheck-action/commit/facbb18b69603fc10d726871e39e4b3c7fe54139))
+
+
+### Bug Fixes
+
+* add checkout step before moving major version tag ([#114](https://github.com/opzkit/govulncheck-action/issues/114)) ([cda3b05](https://github.com/opzkit/govulncheck-action/commit/cda3b05ed161eb9d14102a392c8d888b682a88c9))
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/setup-go digest to 4b73464 ([#109](https://github.com/opzkit/govulncheck-action/issues/109)) ([d07b402](https://github.com/opzkit/govulncheck-action/commit/d07b402a271bfbad0422db51bf62d90c3c4d4638))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.31.1 ([#105](https://github.com/opzkit/govulncheck-action/issues/105)) ([c7caedb](https://github.com/opzkit/govulncheck-action/commit/c7caedb0c786049b4d0972cc96003218b529807a))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.46.6 ([#110](https://github.com/opzkit/govulncheck-action/issues/110)) ([9b425b1](https://github.com/opzkit/govulncheck-action/commit/9b425b1cae52fe9f98ecde20814be1af55c7492f))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.59.4 ([#112](https://github.com/opzkit/govulncheck-action/issues/112)) ([ad3b58a](https://github.com/opzkit/govulncheck-action/commit/ad3b58ad2a998e6d61a149f8f9f9a4894d30c8e7))
+* remove unnecessary terraform tooling ([#111](https://github.com/opzkit/govulncheck-action/issues/111)) ([863b45d](https://github.com/opzkit/govulncheck-action/commit/863b45d5b87e697ba764d7feb189a97e1e734daa))
+
+
+### Continuous Integration
+
+* remove unnecessary terraform and tflint setup from pre-commit workflow ([#108](https://github.com/opzkit/govulncheck-action/issues/108)) ([6766463](https://github.com/opzkit/govulncheck-action/commit/67664634846ff3eeffbd041e3387229791fd68df))
+
 ## [1.1.2](https://github.com/opzkit/govulncheck-action/compare/v1.1.1...v1.1.2) (2026-02-16)
 
 
