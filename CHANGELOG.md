@@ -1,5 +1,45 @@
 # Changelog
 
+## [1.2.1](https://github.com/opzkit/govulncheck-action/compare/v1.2.0...v1.2.1) (2026-08-24)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v6.0.3 ([#135](https://github.com/opzkit/govulncheck-action/issues/135)) ([35f13f8](https://github.com/opzkit/govulncheck-action/commit/35f13f8783e09086be7dba1980635e743ca8c02d))
+* **deps:** update actions/checkout action to v7 ([#137](https://github.com/opzkit/govulncheck-action/issues/137)) ([1b86e9d](https://github.com/opzkit/govulncheck-action/commit/1b86e9da1aa113c11faedbe200d871cfb4a62875))
+* **deps:** update actions/checkout digest to 3d3c42e ([#143](https://github.com/opzkit/govulncheck-action/issues/143)) ([f2efadd](https://github.com/opzkit/govulncheck-action/commit/f2efaddf4671f0f0809235c3b641e718045f814c))
+* **deps:** update actions/checkout digest to df4cb1c ([#134](https://github.com/opzkit/govulncheck-action/issues/134)) ([930200d](https://github.com/opzkit/govulncheck-action/commit/930200d77ce9456e4699b1f9a39be4e5c938b9ee))
+* **deps:** update actions/create-github-app-token action to v3 ([#116](https://github.com/opzkit/govulncheck-action/issues/116)) ([1e003bc](https://github.com/opzkit/govulncheck-action/commit/1e003bc627dc9f24202783fc57ead1914a6fb2dc))
+* **deps:** update actions/create-github-app-token digest to 1b10c78 ([#123](https://github.com/opzkit/govulncheck-action/issues/123)) ([47ba9dd](https://github.com/opzkit/govulncheck-action/commit/47ba9dda6ddd4102432dbb55d43e7c3d1f78bbb8))
+* **deps:** update actions/create-github-app-token digest to 7bd0371 ([#122](https://github.com/opzkit/govulncheck-action/issues/122)) ([a827534](https://github.com/opzkit/govulncheck-action/commit/a827534911cf8933abfb07e05f6c39e5445d4fcb))
+* **deps:** update actions/create-github-app-token digest to bcd2ba4 ([#132](https://github.com/opzkit/govulncheck-action/issues/132)) ([6ca1208](https://github.com/opzkit/govulncheck-action/commit/6ca1208f8898f1cd833b5b3aa07e7ccfdb5e8b0c))
+* **deps:** update actions/create-github-app-token digest to fee1f7d ([#115](https://github.com/opzkit/govulncheck-action/issues/115)) ([1fae072](https://github.com/opzkit/govulncheck-action/commit/1fae072803a028af6ec7fa06b4fbe68d38e5f1a4))
+* **deps:** update actions/setup-go action to v7 ([#142](https://github.com/opzkit/govulncheck-action/issues/142)) ([42cd19f](https://github.com/opzkit/govulncheck-action/commit/42cd19f6721fe90a5847f11543e2cef668968526))
+* **deps:** update actions/setup-go digest to 4a36011 ([#120](https://github.com/opzkit/govulncheck-action/issues/120)) ([636ac28](https://github.com/opzkit/govulncheck-action/commit/636ac28daf9e66d863096180fdd55eaf0470ceea))
+* **deps:** update actions/setup-go digest to 924ae3a ([#138](https://github.com/opzkit/govulncheck-action/issues/138)) ([c944775](https://github.com/opzkit/govulncheck-action/commit/c9447753183d6e591aa5584d8f138d7c0f25ec4c))
+* **deps:** update actions/setup-python action to v6.3.0 ([#139](https://github.com/opzkit/govulncheck-action/issues/139)) ([abe1e76](https://github.com/opzkit/govulncheck-action/commit/abe1e7659943c9b2fcf8ab3c93f27c511a3630dd))
+* **deps:** update actions/setup-python action to v7 ([#144](https://github.com/opzkit/govulncheck-action/issues/144)) ([b406a9f](https://github.com/opzkit/govulncheck-action/commit/b406a9fb1973bc2da9074eb3215103e735b5bfa6))
+* **deps:** update googleapis/release-please-action action to v5 ([#127](https://github.com/opzkit/govulncheck-action/issues/127)) ([ce84b46](https://github.com/opzkit/govulncheck-action/commit/ce84b4687833cca7d7db26f20ae96c8cc8110f5e))
+* **deps:** update googleapis/release-please-action digest to 5c625bf ([#125](https://github.com/opzkit/govulncheck-action/issues/125)) ([88e4e35](https://github.com/opzkit/govulncheck-action/commit/88e4e35ee91030e84cfc4aeddd09ae8c8e803513))
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.25.0 ([#129](https://github.com/opzkit/govulncheck-action/issues/129)) ([80fbeae](https://github.com/opzkit/govulncheck-action/commit/80fbeaec861f00d19881efb0671e78b8967ca98d))
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.26.0 ([#140](https://github.com/opzkit/govulncheck-action/issues/140)) ([7f00ac5](https://github.com/opzkit/govulncheck-action/commit/7f00ac5e55ff1eaa82c7c7b30318e5fd710db54a))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.104.4 ([#121](https://github.com/opzkit/govulncheck-action/issues/121)) ([f915534](https://github.com/opzkit/govulncheck-action/commit/f915534d8ca0bab68c3e1b9e3fb7d0f64ff5099a))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.111.0 ([#124](https://github.com/opzkit/govulncheck-action/issues/124)) ([4671cb6](https://github.com/opzkit/govulncheck-action/commit/4671cb6bcfb701ee29d6214fce1d39c55c04e70c))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.126.0 ([#126](https://github.com/opzkit/govulncheck-action/issues/126)) ([8b97dff](https://github.com/opzkit/govulncheck-action/commit/8b97dff0b6bc70c02ca6113e1a131f5c374758e4))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.140.0 ([#128](https://github.com/opzkit/govulncheck-action/issues/128)) ([437f17d](https://github.com/opzkit/govulncheck-action/commit/437f17d33a86a6ed97ea87cec983aad31775e16a))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.141.2 ([#130](https://github.com/opzkit/govulncheck-action/issues/130)) ([4505648](https://github.com/opzkit/govulncheck-action/commit/4505648a00ca3fc37a62c44723271ee0c8c8237c))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.150.0 ([#131](https://github.com/opzkit/govulncheck-action/issues/131)) ([09b4a71](https://github.com/opzkit/govulncheck-action/commit/09b4a7155ca8903b82cfad39506b062ed4ab4e65))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.201.3 ([#133](https://github.com/opzkit/govulncheck-action/issues/133)) ([1695ec2](https://github.com/opzkit/govulncheck-action/commit/1695ec260cc7dca36a165702ab756fedd06af2d2))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.218.0 ([#136](https://github.com/opzkit/govulncheck-action/issues/136)) ([f8be881](https://github.com/opzkit/govulncheck-action/commit/f8be8813d8a788f79046a2c13b8205b2f3eb1d1b))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.251.0 ([#141](https://github.com/opzkit/govulncheck-action/issues/141)) ([c57373d](https://github.com/opzkit/govulncheck-action/commit/c57373d44a86df08f33da219b3b7f68402d6d00d))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.279.0 ([#145](https://github.com/opzkit/govulncheck-action/issues/145)) ([8b496ef](https://github.com/opzkit/govulncheck-action/commit/8b496eff20f3752e9ce40ebb7ca6abd844e991c9))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.288.0 ([#146](https://github.com/opzkit/govulncheck-action/issues/146)) ([cd7ddd0](https://github.com/opzkit/govulncheck-action/commit/cd7ddd074570799426b99a40e3633453d782cd31))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.76.2 ([#118](https://github.com/opzkit/govulncheck-action/issues/118)) ([0bcc13c](https://github.com/opzkit/govulncheck-action/commit/0bcc13c09d4798f8c66b1a94d0e7266c8651e896))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.99.1 ([#119](https://github.com/opzkit/govulncheck-action/issues/119)) ([469f499](https://github.com/opzkit/govulncheck-action/commit/469f4994991b461b2483bfe0884a0af42c6fea65))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v44 ([#147](https://github.com/opzkit/govulncheck-action/issues/147)) ([6d93cfa](https://github.com/opzkit/govulncheck-action/commit/6d93cfa0e58062065b763bb01e33afb3fcf7e0cd))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v44.14.3 ([#148](https://github.com/opzkit/govulncheck-action/issues/148)) ([628ac08](https://github.com/opzkit/govulncheck-action/commit/628ac08f3e36031bf1d01a68bca762e545760c9d))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v44.37.1 ([#149](https://github.com/opzkit/govulncheck-action/issues/149)) ([4d5dddb](https://github.com/opzkit/govulncheck-action/commit/4d5dddb46c1279c8f58c62c19ff2cf5acb338f18))
+
 ## [1.2.0](https://github.com/opzkit/govulncheck-action/compare/v1.1.2...v1.2.0) (2026-03-11)
 
 
